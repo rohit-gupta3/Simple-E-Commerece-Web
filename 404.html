@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Page Not Found - Error 404</title>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      #container {
+        margin: 50px auto;
+        max-width: 800px;
+        text-align: center;
+      }
+      
+      #error-code {
+        font-size: 120px;
+        font-weight: bold;
+        color: #666;
+        margin: 0;
+        padding: 0;
+      }
+      
+      #error-message {
+        font-size: 24px;
+        font-weight: bold;
+        color: #666;
+        margin: 20px 0;
+        padding: 0;
+      }
+      
+      #back-to-home {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #0077cc;
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+      }
+      
+      #back-to-home:hover {
+        background-color: #005fa3;
+      }
+      
+      @media only screen and (max-width: 600px) {
+        #error-code {
+          font-size: 80px;
+        }
+        
+        #error-message {
+          font-size: 18px;
+        }
+        
+        #back-to-home {
+          font-size: 16px;
+          padding: 8px 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="error-code">404</h1>
+      <p id="error-message">Oops! The page you're looking for could not be found.</p>
+      <a href="/" id="back-to-home">Go back to homepage</a>
+    </div>
+  </body>
+</html>

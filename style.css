@@ -1,0 +1,130 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cc0033;
+    color: #fff;
+    padding: 45px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* CSS for company name */
+  .student-shop {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+ /*  for header */
+ header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .offer-container {
+    background-color:#d8db0d;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .offer {
+    width: calc(33.33% - 10px);
+    background-color: #d8db0d;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .offer h3 {
+    margin-top: 0;
+  }
+  
+  .offer p {
+    margin-bottom: 0;
+  }
+  
+  .success-message {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .success-message h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .success-message p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video-container iframe {
+    width: 560px;
+    height: 315px;
+  }
+  
+  .join-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f1c40f;
+  }
+  
+
+ /* for footer */
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #adc7cc;
+    padding: 20px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .footer-links a {
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .footer-contacts {
+    text-align: center;
+  }
+  
+  .footer-contacts p {
+    margin: 0;
+  }
+  
+  .footer-contacts a {
+    color: #333;
+  }
+  
+  .footer-location {
+    text-align: right;
+  }
+  
+  .footer-location p {
+    margin: 0;
+  }
+  

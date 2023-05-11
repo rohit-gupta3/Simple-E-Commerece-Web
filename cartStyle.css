@@ -1,0 +1,104 @@
+/* Center the shopping cart */
+.shopping-cart-container {
+    /* display: flex; */
+    /*justify-content: center;*/
+    margin-top: 10px;
+    width:1000px;
+    
+  }
+  
+  /* Style the shopping cart */
+  .shopping-cart {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Style the cart item */
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  /* .product-info {
+    flex: 1;
+  } */
+  
+  .product-name {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+  
+  .remove-button {
+    margin-left:30px;
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .buy-button {
+    margin-left:30px;
+    background-color: #c4cdf3;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  /* Style the login form */
+/* Style the login form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin-top: 50px;   
+    padding-left: 650px;
+  }
+  
+  
+  .login-form label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .login-form button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
